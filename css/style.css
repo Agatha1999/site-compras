@@ -1,0 +1,101 @@
+/* Estilos gerais */
+@font-face {
+  font-family: 'R';
+  src: url(MoreSugar-Regular.ttf);
+}
+@font-face {
+  font-family: 'T';
+  src: url(MoreSugar-Thin.ttf);
+}
+@font-face {
+  font-family: 'C';
+  src: url(FunClub-Outline.ttf);
+}
+body {
+    background-color: #faefd0;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  /*Titulo*/
+  h1{
+    font-family: 'C';
+    color:#623307;
+    font-size: 40px;
+  }
+  /*Subtitulo*/
+  a{
+    font-family: 'T';
+    color:#623307;
+    font-size: 20px;
+  }
+  h3{
+    font-size: 20px;
+    font-family: 'T';
+    color: #623307;
+    padding: 2px;
+    width: 590px;
+    height: 25px;
+    margin-left: 68%;
+  }
+
+  .insta{
+    font-family: 'C';
+    font-size: 21.5px;
+  }
+
+
+  /* Estilos do cabeçalho */
+  header {
+    text-align: center;
+    background-color: #7dcfff;
+    padding: 20px;
+    border-bottom: #623307 dashed 3.5px;
+  }
+  .caran{
+    display: flex;
+    justify-content: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+  }
+  
+  /* Estilos do conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  
+  
+  /* Estilos do rodapé */
+  footer {
+    border-top: #623307 dashed 3.5px;
+    background-color: #7dcfff;
+    font-family: 'T';
+    color: #623307;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
